@@ -25,7 +25,7 @@ bool stopPressed = false;
 bool colonVisible = true;
 bool waitingForMoney = false; // Variabilă pentru a verifica dacă așteptăm bani
 
-const unsigned long printInterval = 3000; // Intervalul pentru afișarea în consolă (3 secunde)
+const unsigned long printInterval = 1000; // Intervalul pentru afișarea în consolă (3 secunde)
 const unsigned long updateInterval = 1000; // Intervalul de actualizare a timpului (1 secundă)
 unsigned long lastPrintTime = 0;
 unsigned long lastTimeUpdate = 0;
